@@ -120,6 +120,7 @@ body {
   color: #afe61d;
 }
 
+/* @todo change padding to 10px 0 - this only affects h3-h6*/
 h1, h2, h3, h4, h5, h6 {
   color: #afe61d;
   font-family: "Nunito",sans-serif;
@@ -309,6 +310,7 @@ h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, 
   font-size: inherit;
 }
 
+/* @todo split out h3 before into new block and add "top: 15px" to it */
 #write h1:before, #write h2:before, #write h3:before, #write h4:before, #write h5:before, #write h6:before {
   border-radius: 0;
   bottom: 0;
